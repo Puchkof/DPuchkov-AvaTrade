@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-AvaTrade.News.Processor-9556023c-de35-465a-b081-33cecd66e2dd</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AvaTrade.News.Infrastructure\AvaTrade.News.Infrastructure.csproj" />
+    <ProjectReference Include="..\AvaTrade.News.Domain\AvaTrade.News.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
