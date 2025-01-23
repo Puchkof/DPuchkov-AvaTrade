@@ -1,0 +1,6 @@
+@AvaTrade.News.API_HostAddress = http://localhost:5263
+
+GET {{AvaTrade.News.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
